@@ -1086,6 +1086,14 @@ Descubra novos jeitos de viver, usar e aproveitar — porque aqui, cada produto 
   }
   </script>
 
+  <script>
+    // Garante que o clique sempre use o href atualizado
+    document.getElementById('div_ors_4').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = this.href;
+    });
+  </script>
+
 
 
   <script>
